@@ -156,7 +156,7 @@
 
         cb_ltm {
             bindings = <&kp ESC>;
-            key-positions = <2 4>;
+            key-positions = <3 13>;
             layers = <0 1>;
         };
 
@@ -182,9 +182,39 @@
             key-positions = <5 6>;
         };
 
-        my_keypress_ {
+        my_combo_keypress_zenhan {
             bindings = <&kp LANG_ZENKAKUHANKAKU>;
             key-positions = <2 3 4>;
+        };
+
+        my_combo_keypress_brace_l {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <5 17>;
+        };
+
+        my_keypress_brace_r {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <6 18>;
+        };
+
+        my_keypress_parenthesis_l {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <4 16>;
+        };
+
+        my_keypress_parenthesis_r {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <7 19>;
+        };
+
+        my_keypress_lessthan {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <3 15>;
+        };
+
+        my_keypress_greaterthan {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <8 20>;
         };
     };
 
@@ -263,10 +293,10 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3   &kp F4  &kp F5                         &kp F6    &kp F7     &kp F8     &kp F9    &kp F10  &kp F11
-&trans  &kp N5  &kp N4  &kp N3   &kp N2  &kp N1                         &kp BSPC  &kp MINUS  &kp EQUAL  &kp PLUS  &kp DQT  &kp F12
-&trans  &kp N6  &kp N7  &kp N8   &kp N9  &kp N0         &trans  &trans  &kp TAB   &kp INS    &kp HOME   &kp END   &trans   &trans
-&none   &none   &none   &kp TAB  &trans  &kp BACKSPACE                  &trans    &trans     &kp N3     &none     &none    &none
+&trans  &kp F1  &kp F2  &kp F3   &kp F4  &kp F5                         &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
+&trans  &kp N1  &kp N2  &kp N3   &kp N4  &kp N5                         &kp N6  &kp N7  &kp N8  &kp N9  &kp N0   &kp F12
+&trans  &none   &none   &none    &none   &none          &trans  &trans  &none   &none   &none   &none   &trans   &trans
+&none   &none   &none   &kp TAB  &trans  &kp BACKSPACE                  &trans  &trans  &kp N3  &none   &none    &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
