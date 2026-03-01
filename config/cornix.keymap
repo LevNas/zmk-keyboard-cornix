@@ -183,7 +183,7 @@
         };
 
         my_combo_keypress_zenhan {
-            bindings = <&kp LANG_ZENKAKUHANKAKU>;
+            bindings = <&my_macro_zenhan>;
             key-positions = <2 3 4>;
         };
 
