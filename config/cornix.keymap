@@ -233,8 +233,13 @@
         };
 
         my_combo_keypress_ctrl_r {
-            bindings = <&none>;
-            key-positions = <21 22>;
+            bindings = <&kp LCTRL>;
+            key-positions = <18 32>;
+        };
+
+        my_combo_keypress_ctrl_l {
+            bindings = <&kp LCTRL>;
+            key-positions = <17 29>;
         };
     };
 
