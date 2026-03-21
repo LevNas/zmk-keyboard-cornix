@@ -210,26 +210,6 @@
             key-positions = <9 21>;
         };
 
-        my_combo_keypress_shift_r {
-            bindings = <&kp LCTRL>;
-            key-positions = <21 22>;
-        };
-
-        my_combo_keypress_shift_l {
-            bindings = <&kp LCTRL>;
-            key-positions = <13 14>;
-        };
-
-        my_combo_keypress_ctrl_r {
-            bindings = <&kp LCTRL>;
-            key-positions = <18 32>;
-        };
-
-        my_combo_keypress_ctrl_l {
-            bindings = <&kp LCTRL>;
-            key-positions = <17 29>;
-        };
-
         my_combo_keypress_bracket_l {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <3 15>;
