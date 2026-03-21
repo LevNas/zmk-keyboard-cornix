@@ -224,6 +224,16 @@
             bindings = <&kp RCTRL>;
             key-positions = <21 22>;
         };
+
+        cb_kp_l-shift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <14 15>;
+        };
+
+        cb_kp_r-shift {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <21 20>;
+        };
     };
 
     macros {
