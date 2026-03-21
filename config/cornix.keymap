@@ -234,6 +234,16 @@
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <21 20>;
         };
+
+        cb_kp_l-alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <15 16>;
+        };
+
+        cb_kp_r-alt {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <19 20>;
+        };
     };
 
     macros {
