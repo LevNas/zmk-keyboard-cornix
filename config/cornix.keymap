@@ -147,19 +147,19 @@
     combos {
         compatible = "zmk,combos";
 
-        cb_ltm {
+        cb_kp_esc {
             bindings = <&kp ESC>;
             key-positions = <3 2>;
             layers = <0 1>;
         };
 
-        cb_lm {
+        cb_kp_tab {
             bindings = <&kp TAB>;
             key-positions = <14 16>;
             layers = <0 1>;
         };
 
-        cb_enter {
+        cb_kp_enter {
             bindings = <&kp RET>;
             key-positions = <21 19>;
             layers = <0 1>;
@@ -210,13 +210,8 @@
             key-positions = <9 21>;
         };
 
-        my_combo_keypress_colon {
-            bindings = <&kp RC(COLON)>;
-            key-positions = <21 20>;
-        };
-
         my_combo_keypress_shift_r {
-            bindings = <&kp RIGHT_SHIFT>;
+            bindings = <&kp LCTRL>;
             key-positions = <21 22>;
         };
 
